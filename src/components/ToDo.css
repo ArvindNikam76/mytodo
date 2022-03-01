@@ -1,0 +1,37 @@
+.todo-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: solid;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+.complete {
+  color: green;
+}
+
+.incomplete {
+  color: palevioletred;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.button-incomplete {
+  background-color: green !important;
+  border: turquoise;
+}
+
+.button-complete {
+  background-color: palevioletred !important;
+  border: turquoise;
+}
