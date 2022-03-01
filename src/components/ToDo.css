@@ -29,9 +29,11 @@
 .button-incomplete {
   background-color: green !important;
   border: turquoise;
+  color: aliceblue;
 }
 
 .button-complete {
   background-color: palevioletred !important;
   border: turquoise;
+  color: aliceblue;
 }
